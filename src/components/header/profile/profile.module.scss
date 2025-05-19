@@ -1,0 +1,51 @@
+.profile {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
+
+.menu {
+    position: fixed;
+    top: 58px;
+    right: 16px;
+    min-width: 120px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-top: 3px;
+    
+}
+
+.menu::before,
+.menu::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: -10px;
+    right: 40px;
+    border: 10px solid transparent;
+}
+
+.menu::after {
+    top: -19px;
+    border-bottom: 10px solid #ffffff;
+}
+
+.avatar {
+    background: #ffffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.arrow {
+    margin-left: 6px;
+    padding-top: 10px;
+    &.up > svg {
+       transform: scaleY(-1); 
+    }
+}
+

@@ -1,0 +1,65 @@
+.card {
+    position: relative;
+    max-width: 1300px;
+    min-height: 548px;
+    margin: 27px 27px 27px 27px;
+    padding: 22px 28px;
+    border-radius: 5px;
+    background-color: #fff;
+    @media screen and (max-width: 338px) {
+        max-width: 250px;
+        min-height: 200px;
+    }
+}
+
+
+  .name {
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    min-height: 40px;
+    width: 100%;
+    
+  }
+
+  .description {
+    margin-top: 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    min-height: 380px;
+    width: 60%;
+  }
+
+  .button-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+  }
+
+  .button-savecard {
+        margin-top: 25px;
+        padding: 0;
+        cursor: pointer;
+        color: #5E6C84;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        width: 102px;
+        height: 29px;
+    }
+    .button-savecard:hover {
+        cursor: pointer;
+        color: #FFFFFF;
+        font-size: 18px;
+        background-color: #0079BF;
+        border: none;
+        border-radius: 5px;
+        width: 102px;
+        height: 29px;
+    
+    }
